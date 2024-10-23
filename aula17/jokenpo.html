@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="pontos"></div>
+    <br>
+    <button onclick="jogar()">Jogar</button>
+    <script>
+
+        function jogar(){
+            const ponto = document.getElementById("pontos");
+            var opcoes = ['Papel','Pedra','Tesoura'];
+            var gameover = false;
+            var pontuacao = 0;
+            do{
+                var opcao = parseInt(prompt("Escolha sua opção:\n1 - Papel\n2 - Pedra\n3 - Tesoura"));
+                if(opcao > 0 && opcao < 4){
+                    var resp = Math.ceil(Math.random() * 3);
+                    alert("O computador escolheu " + opcoes[resp-1]);
+                    if(opcao == resp){
+                        alert("A rodada empatou!");
+                    }
+                    
+                    else{
+                        if((opcao == 1 && resp == 2) || (opcao == 2 && resp == 3) || (opcao == 3 && resp == 1)){
+                            pontuacao++;
+                            alert("Você ganhou!");
+                        }
+                        else{
+                            alert("O computador ganhou!");
+                            gameover = true;
+                        }
+                    }
+                }
+                else{
+                    gameover = true
+                }
+            }
+            
+            while(gameover == false);
+            
+            alert("A sua pontuação foi de: " + pontuacao + " pontos")
+            /*  while(cond){
+                set de instruções
+            } */
+        }
+    </script>
+</body>
+</html>
