@@ -1,9 +1,10 @@
 'use client'
+
 import Botao from "./components/Botao/Botao";
-import ToDo from "./components/ToDo/ToDo";
 import Card, { Auxiliar } from "./components/Card/page";
 import Header from "./components/Header/Header";
 import Meucomponente from "./components/Meucomponente/page";
+import ToDo from "./components/ToDo/ToDo";
 
 export default function Home() {
   return (
@@ -17,13 +18,15 @@ export default function Home() {
 
       <Auxiliar/>
 
-      <Botao cor='red' texto='Excluir' cliclado={() => {alert("Botao exlcuir foi pressionado") }}/>
+      <Botao cor='red' texto='Excluir' clicado={()=>{ alert("Botão excluir foi pressionado!") }} />
 
-      <Botao cor="green" texto='Acessar'/>
+      <Botao cor='green' texto='Acessar' />
+      
+      <Botao texto='Confirmar' clicado={() =>{ alert("Botão Confirmar foi pressionado!")}}/>
+      
+      <ToDo />
 
-      <Botao texto='Confirmar' cliclado={() => { alert("Botão confirmar foi pressionado")}}/>
 
-        <ToDo/>
     </>
   )
 }
