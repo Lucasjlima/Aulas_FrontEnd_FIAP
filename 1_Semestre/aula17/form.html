@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function Mascara(formato,campo){
+            objeto = eval(campo);
+            sep1 = ".";
+            sep2 = "-";
+            sep3 = "(";
+            sep4 = ") ";
+            
+            if(formato == 'cpf'){
+                if(objeto.value.length == 3){
+                    objeto.value = objeto.value + sep1
+                }else{
+                    if(objeto.value.length == 7){
+                        objeto.value = objeto.value + sep1
+                    }
+                    else{
+                        if(objeto.value.length == 11){
+                            objeto.value = objeto.value + sep2
+                        }
+                    }
+                }
+            }
+            if(formato == 'cep'){
+                if(objeto.value.length == 5){
+                    objeto.value += sep2 // objeto.value = objeto.value + sep2
+                }
+            }
+
+            if(formato == 'tel'){
+                if(objeto.value.length == 0){
+                    objeto.value += sep3; 
+                }
+                else{
+                    if(objeto.value.length == 3){
+                        objeto.value += sep4;
+                    }
+                    else{
+                        if(objeto.value.length == 10){
+                        objeto.value += sep2;
+                    }
+                    }
+                }   
+            }
+        }
+
+        function SomenteNumero(e){
+            var tecla = (window.event)?event.keyCode:e.which;
+            //alert(tecla)
+            if((tecla == 8) || (tecla == 9) || (tecla > 47 && tecla < 58) || (tecla > 95 && tecla < 106)) return true;
+            else return false;
+        }
+
+        function desabilitaEnter(e){
+            if (e.keyCode == 13) return false
+        }
+
+    </script>
+</head>
+<body>
+    <form onkeypress="return desabilitaEnter(event)">
+        <label for="txtNome">Nome</label>
+        <input type="text" name="txtNome" id="txtNome">
+        <br>
+        <label for="cpf">CPF</label>
+        <input type="text" name="cpf" id="cpf" onkeypress="Mascara('cpf',this)" onkeydown="return SomenteNumero(event)" maxlength="14">
+        <br>
+        <label for="cep">CEP</label>
+        <input type="text" name="cep" id="cep" onkeypress="Mascara('cep',this);" onkeydown="return SomenteNumero(event)" maxlength="9">
+        <br>
+        <label for="tel">Telefone</label>
+        <input type="text" name="tel" id="tel" onkeypress="Mascara('tel',this)" onkeydown="return SomenteNumero(event)" maxlength="15">
+        <br>
+        <input type="submit">
+    </form>
+</body>
+</html>

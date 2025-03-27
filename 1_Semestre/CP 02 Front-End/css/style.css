@@ -1,0 +1,54 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: #f4edc7;
+}
+.area{
+    padding: 5px;
+    background-color: red;
+}
+h1{
+    color: red;
+    padding: 20px;
+    border-left: 5px solid darkred;
+    border-bottom: 2px solid darkred;
+    width: 50%;
+    margin: 50px;
+}
+
+.tabela{
+    display: flex;
+    align-items: center;
+    margin-left: 35px;
+}
+
+#txtNome{
+    padding-right: 450px;
+     
+}
+
+input{
+    color: darkred;
+    border: 1px solid darkred;
+    margin-top: 15px;
+}
+
+label{
+    color: darkred;
+
+}
+
+fieldset{
+    border: 1px solid darkred;
+    color: darkred;
+    float: left;
+    margin: 10px;
+}
+footer{
+    padding: 5px;
+    background-color: red;
+}

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilo.css">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+    <header>
+        <div class="wrapper">
+            <h1>CheckPoint 02</h1>
+        </div>
+    </header>
+    <div class="wrapper">
+        <h2>Formulário de Cadastro</h2>
+
+        <fieldset class="identificacao">
+            <legend>Identificação</legend>
+            <div>
+                <label for="txtNome">Nome Completo*</label><br>
+                <input type="text" name="txtNome" id="txtNome" class="campos">
+            </div>
+            <div class="docs">
+                <label for="txtRG">RG*</label><br>
+                <input type="number" name="txtRG" id="txtRG" class="campos">
+            </div>
+            <div class="docs">
+                <label for="txtCPF">CPF*</label><br>
+                <input type="number" name="txtCPF" id="txtCPF" class="campos">
+            </div>
+
+            <div class="docs">
+                <label for="txtSenha">Senha*</label><br>
+                <input type="password" name="txtSenha" id="txtSenha" class="campos">
+            </div>
+            <div class="docs">
+                <label for="txtConfSenha">Confirmação de Senha*</label><br>
+                <input type="password" name="txtConfSenha" id="txtConfSenha" class="campos">
+            </div>
+            <div class="docs">
+                <label for="rdoSexo">Sexo*</label><br>
+                <input type="radio" name="sexo" id="sexoM" value="M" >Masculino
+                <input type="radio" name="sexo" id="sexoF" value="F" >Feminino
+                <input type="radio" name="sexo" id="sexoO" value="O" >Outros
+            </div>
+
+        </fieldset>
+        <fieldset class="fotografia">
+            <legend>Fotografia</legend>
+        </fieldset>
+        <input type="reset" value="Limpar">
+        <button type="button" onclick="validar()">Enviar</button>
+    </div>
+</form>
+<script src="js/script.js"></script>
+</body>
+</html>
