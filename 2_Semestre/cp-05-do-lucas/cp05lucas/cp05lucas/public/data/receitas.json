@@ -1,0 +1,16 @@
+[
+    {
+      "id": 1,
+      "categoria": "Sobremesas",
+      "nome": "Brigadeiro",
+      "ingredientes": [
+        "1 lata de leite condensado",
+        "1 colher de manteiga",
+        "3 colheres de chocolate em pó"
+      ],
+      "modoPreparo": "Misture tudo e leve ao fogo baixo até soltar do fundo.",
+      "tempo": "20 minutos",
+      "imagem": "/imagens/brigadeiro.jfif"
+    }
+  ]
+  
