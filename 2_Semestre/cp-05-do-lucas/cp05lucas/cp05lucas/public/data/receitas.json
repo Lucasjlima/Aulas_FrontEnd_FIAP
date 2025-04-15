@@ -1,16 +1,63 @@
 [
-    {
-      "id": 1,
-      "categoria": "Sobremesas",
-      "nome": "Brigadeiro",
-      "ingredientes": [
-        "1 lata de leite condensado",
-        "1 colher de manteiga",
-        "3 colheres de chocolate em pó"
-      ],
-      "modoPreparo": "Misture tudo e leve ao fogo baixo até soltar do fundo.",
-      "tempo": "20 minutos",
-      "imagem": "/imagens/brigadeiro.jfif"
-    }
-  ]
-  
+  {
+    "id": 1,
+    "categoria": "Sobremesas",
+    "nome": "Brigadeiro",
+    "ingredientes": [
+      "1 lata de leite condensado",
+      "1 colher de sopa de manteiga",
+      "3 colheres de sopa de chocolate em pó"
+    ],
+    "modoPreparo": "Misture tudo em uma panela e leve ao fogo baixo, mexendo até soltar do fundo.",
+    "tempo": "20 minutos",
+    "imagem": "/imagens/brigadeiro.jpg"
+  },
+  {
+    "id": 2,
+    "categoria": "Pratos Principais",
+    "nome": "Lasanha de Carne",
+    "ingredientes": [
+      "500g de carne moída",
+      "1 pacote de massa para lasanha",
+      "Molho de tomate",
+      "Queijo e presunto"
+    ],
+    "modoPreparo": "Monte as camadas com molho, carne, massa e queijo. Leve ao forno até gratinar.",
+    "tempo": "40 minutos",
+    "imagem": "/imagens/lasanha.jpg"
+  },
+  {
+    "id": 3,
+    "categoria": "Pratos Principais",
+    "nome": "Hamburguer X-Tudo",
+    "ingredientes": [
+      "100g de carne moída",
+      "1 cebola picada",
+      "Molho de tomate",
+      "Queijo e presunto",
+      "Molho Barbecue"
+    ],
+    "modoPreparo": "Misture todos os ingredientes, amasse bem e forme bolinhas, depois achate para ter a forma de hambúrguer.Frite numa frigideira antiaderente, coloque uma colher de óleo pois a carne não tem gordura. ",
+    "tempo": "20 minutos",
+    "imagem": "/imagens/hamburguer.jpg"
+
+
+  },
+  {
+    "id": 4,
+    "categoria": "Sobremesas",
+    "nome": "Pudim",
+    "ingredientes": [
+      "3 ovos inteiros",
+      "1 lata de leite condensado",
+      "1 lata de leite",
+      "1 xícara (chá) de açúcar",
+      "1/2 xícara de água"
+    ],
+    "modoPreparo": "Primeiro, bata bem os ovos no liquidificador.Acrescente o leite condensado e o leite, e bata novamente.CaldaDerreta o açúcar na panela até ficar moreno, acrescente a água e deixe engrossar.Coloque em uma forma redonda e despeje a massa do pudim por cima.Asse em forno médio por 45 minutos, com a assadeira redonda dentro de uma maior com água.Espete um garfo para ver se está bem assado.",
+    "tempo": "50 minutos",
+    "imagem": "/imagens/pudim.jpg"
+
+
+  }
+]
