@@ -59,5 +59,41 @@
     "imagem": "/imagens/pudim.jpg"
 
 
+  },
+  {
+    "id": 5,
+    "categoria": "Sobremesas",
+    "nome": "Pavê de limão",
+    "ingredientes": [
+      "1 caixinha de NESTLÉ Creme de Leite",
+      "1 Leite MOÇA (lata ou caixinha) 395 g",
+      "raspas da casca de 1 limão",
+      "1 pacote de biscoito tipo champanhe",
+      "meia xícara (chá) de Leite Líquido NINHO Forti+ Integral"
+    ],
+    "modoPreparo": "Em um recipiente, misture bem o Leite MOÇA, o suco de limão, o NESTLÉ Creme de Leite e as raspas de limão até obter um creme homogêneo e consistente. Umedeça os biscoitos no Leite NINHO e forre um recipiente refratário médio com parte dos biscoitos umedecidos. Monte o pavê, alternando camadas de biscoitos e de creme de limão. Termine com uma camada de creme, cubra e leve à geladeira por cerca de 3 horas.",
+    "tempo": "205 minutos",
+    "imagem": "/imagens/paveLimao.jpg"
+
+
+  },
+  {
+    "id": 6,
+    "categoria": "Pratos Principais",
+    "nome": "Arroz Carreteiro",
+    "ingredientes": [
+      "1 kg de carne seca",
+      "2 xícaras de arroz",
+      "1 cebola picada",
+      "2 dentes de alho picados",
+      "1 pimentão verde picado",
+      "1 tomate picado",
+      "Cheiro verde a gosto"
+    ],
+    "modoPreparo": "Dessalgue a carne seca e cozinhe até ficar macia. Em uma panela, refogue a cebola, o alho, o pimentão e o tomate. Adicione a carne desfiada e o arroz. Cozinhe até o arroz ficar pronto.",
+    "tempo": "50 minutos",
+    "imagem": "/imagens/carreteiro.jpg"
+
+
   }
 ]

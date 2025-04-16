@@ -1,4 +1,4 @@
-"use client";
+'use client';
 
 import { useEffect, useState } from "react";
 import { useParams } from "next/navigation";
@@ -44,7 +44,7 @@ export default function ReceitaDetalhePage() {
       <CompHeader />
 
       <main className="flex-1 p-8 bg-white max-w-3xl mx-auto  text-center">
-        <h2 className="text-3xl font-bold mb-4 text-orange-600">
+        <h2 className="text-3xl font-bold mb-4 text-gray-800">
           {receita.nome}
         </h2>
 
