@@ -40,8 +40,6 @@
     "modoPreparo": "Misture todos os ingredientes, amasse bem e forme bolinhas, depois achate para ter a forma de hambúrguer.Frite numa frigideira antiaderente, coloque uma colher de óleo pois a carne não tem gordura. ",
     "tempo": "20 minutos",
     "imagem": "/imagens/hamburguer.jpg"
-
-
   },
   {
     "id": 4,
@@ -57,8 +55,6 @@
     "modoPreparo": "Primeiro, bata bem os ovos no liquidificador.Acrescente o leite condensado e o leite, e bata novamente.CaldaDerreta o açúcar na panela até ficar moreno, acrescente a água e deixe engrossar.Coloque em uma forma redonda e despeje a massa do pudim por cima.Asse em forno médio por 45 minutos, com a assadeira redonda dentro de uma maior com água.Espete um garfo para ver se está bem assado.",
     "tempo": "50 minutos",
     "imagem": "/imagens/pudim.jpg"
-
-
   },
   {
     "id": 5,
@@ -74,8 +70,6 @@
     "modoPreparo": "Em um recipiente, misture bem o Leite MOÇA, o suco de limão, o NESTLÉ Creme de Leite e as raspas de limão até obter um creme homogêneo e consistente. Umedeça os biscoitos no Leite NINHO e forre um recipiente refratário médio com parte dos biscoitos umedecidos. Monte o pavê, alternando camadas de biscoitos e de creme de limão. Termine com uma camada de creme, cubra e leve à geladeira por cerca de 3 horas.",
     "tempo": "205 minutos",
     "imagem": "/imagens/paveLimao.jpg"
-
-
   },
   {
     "id": 6,
@@ -93,7 +87,54 @@
     "modoPreparo": "Dessalgue a carne seca e cozinhe até ficar macia. Em uma panela, refogue a cebola, o alho, o pimentão e o tomate. Adicione a carne desfiada e o arroz. Cozinhe até o arroz ficar pronto.",
     "tempo": "50 minutos",
     "imagem": "/imagens/carreteiro.jpg"
-
-
+  },
+  {
+    "id": 7,
+    "categoria": "Entradas",
+    "nome": "Bloomin' Onion",
+    "ingredientes": [
+      "1 Cebola grande (a maior que voce encontrar)",
+      "1 ovo",
+      "1 cebola picada",
+      "1 copo de leite",
+      "1 copo de farinha de trigo",
+      "1/8 colher de chá cominho",
+      "1/2 copo de maionese"
+    ],
+    "modoPreparo": "Misture todos os ingredientes secos. Reserve Em outro recipiente, misture o ovo e o leite.A cebola é cortada como se fosse uma flor aberta. Então, corte a cebola em 16 partes. Fica mais facil cortar primeiro em 8 e depois subdividir em mais 8. Mas tome cuidado para não cortar a cebola inteira, deve-se deixar um espaco de 2 cm mais ou menos. Depois, mergulhe a cebola na mistura de leite e ovo. Depois, passe a cebola na mistura de farinha e temperos. Frite em óleo quente por 10 minutos ou até dourar.",
+    "tempo": "20 minutos",
+    "imagem": "/imagens/onion.jpg"
+  },
+  {
+    "id": 8,
+    "categoria": "Entradas",
+    "nome": "Aussie Cheese Fries",
+    "ingredientes": [
+      "Batatas fritas",
+      "Queijo cheddar ralado",
+      "Queijo mussarela ralado",
+      "Bacon crocante picado",
+      "Molho Ranch (para acompanhar)"
+    ],
+    "modoPreparo": "1. Frite as batatas até que fiquem douradas e crocantes.\n2. Coloque as batatas em uma travessa e cubra com os queijos ralados.\n3. Leve ao forno pré-aquecido para gratinar até que o queijo esteja completamente derretido.\n4. Retire do forno e finalize com o bacon crocante por cima.\n5. Sirva com molho Ranch à parte.",
+    "tempo": "30 minutos",
+    "imagem": "/imagens/cheeseFries.jpg"
+  },
+  {
+    "id": 9,
+    "categoria": "Entradas",
+    "nome": "El Ranchito",
+    "ingredientes": [
+      "Mix de alface",
+      "Cenoura ralada",
+      "Repolho roxo fatiado",
+      "Bacon crocante",
+      "Croutons",
+      "Queijo Grana Padano ralado",
+      "Molho Barbecue Ranch"
+    ],
+    "modoPreparo": "1. Em uma tigela grande, combine o mix de alface, a cenoura ralada e o repolho roxo fatiado.\n2. Acrescente o bacon crocante e os croutons.\n3. Polvilhe generosamente o queijo Grana Padano ralado por cima.\n4. Finalize regando com o molho Barbecue Ranch e misture delicadamente para integrar os sabores.\n5. Sirva imediatamente.",
+    "tempo": "15 minutos",
+    "imagem": "/imagens/salada.jpg"
   }
 ]

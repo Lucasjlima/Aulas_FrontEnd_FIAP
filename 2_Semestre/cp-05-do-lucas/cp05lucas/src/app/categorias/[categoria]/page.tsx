@@ -1,7 +1,7 @@
 'use client';
 
 import CompFooter from "@/app/components/compFooter/compFooter";
-import CompHeader from "@/app/components/compHeader/page";
+import CompHeader from "@/app/components/compHeader/compHeader";
 import CompReceitaCard from "@/app/components/compReceitaCard/compReceitaCard";
 import { useParams } from "next/navigation";
 import { useEffect, useState } from "react";
@@ -19,6 +19,10 @@ type Receita = {
 
 export default function CategoriaPage() {
   const { categoria } = useParams();
+  const categoriaUrl = String(categoria);
+const categoriaFormatada = decodeURIComponent(categoriaUrl)
+  .replace(/-/g, " ")
+  .replace(/\b\w/g, (l) => l.toUpperCase());
   const [receitas, setReceitas] = useState<Receita[]>([]);
 
   useEffect(() => {
@@ -37,9 +41,9 @@ export default function CategoriaPage() {
     <div className="min-h-screen flex flex-col">
       <CompHeader />
 
-      <main className="flex-1 p-8 bg-amber-50">
-        <h2 className="text-3xl font-bold mb-6 text-center text-gray-700">
-          Receitas de {categoria} 
+      <main className="flex-1 p-8 ">
+        <h2 className="text-3xl font-bold mb-6 text-center text-gray-600">
+          Receitas de {categoriaFormatada }
         </h2>
 
         {receitas.length === 0 ? (
@@ -59,7 +63,7 @@ export default function CategoriaPage() {
         )}
       </main>
 
-      <CompFooter/>
+      <CompFooter />
     </div>
   );
 }

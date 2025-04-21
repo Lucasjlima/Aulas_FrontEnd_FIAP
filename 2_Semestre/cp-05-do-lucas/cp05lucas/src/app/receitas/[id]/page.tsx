@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from "react";
 import { useParams } from "next/navigation";
-import CompHeader from "@/app/components/compHeader/page";
+import CompHeader from "@/app/components/compHeader/compHeader";
 import CompFooter from "@/app/components/compFooter/compFooter";
 import Image from "next/image";
 import Link from "next/link";
@@ -48,7 +48,7 @@ export default function ReceitaDetalhePage() {
           {receita.nome}
         </h2>
 
-  
+
 
         <Image
           src={receita.imagem}

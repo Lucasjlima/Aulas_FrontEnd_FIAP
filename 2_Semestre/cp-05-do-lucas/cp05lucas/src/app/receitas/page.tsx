@@ -1,7 +1,7 @@
 'use client';
 
 import { useEffect, useState } from "react";
-import CompHeader from "../components/compHeader/page";
+import CompHeader from "../components/compHeader/compHeader";
 import CompReceitaCard from "../components/compReceitaCard/compReceitaCard";
 import CompFooter from "../components/compFooter/compFooter";
 
@@ -28,8 +28,8 @@ export default function ReceitasPage() {
     <div className="min-h-screen flex flex-col">
       <CompHeader />
 
-      <main className="flex-1 p-8 bg-amber-50">
-        <h2 className="text-3xl font-bold mb-6 text-center text-gray-700">
+      <main className="flex-1 p-8 ">
+        <h2 className="text-3xl font-bold mb-6 text-center text-gray-600">
           Todas as Receitas
         </h2>
 

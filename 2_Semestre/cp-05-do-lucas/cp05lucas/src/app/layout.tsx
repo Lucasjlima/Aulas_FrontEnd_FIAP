@@ -1,13 +1,19 @@
 import "./globals.css";
-export default function RootLayout({
-  children,
-}: Readonly<{
-  children: React.ReactNode;
-}>) {
+import { ReactNode } from "react";
+import { TemaProvider } from "@/contexts/TemaContext";
+
+export const metadata = {
+  title: "Sabores do Front",
+  description: "Livro de receitas em Next.js",
+};
+
+export default function RootLayout({ children }: { children: ReactNode }) {
   return (
     <html lang="pt-br">
-      <body className="min-h-screen bg-amber-50">
-        {children}
+      <body className="min-h-screen ">
+        <TemaProvider>
+          {children}
+        </TemaProvider>
       </body>
     </html>
   );
