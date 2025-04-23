@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "nome": "The Last of Us Part II",
+        "descricao": "Aventura e sobrevivência em um mundo pós-apocalíptico.",
+        "preco": 19.99,
+        "anoLancamento": 2020,
+        "categoria": "Ação",
+        "imagem": "/img/lastofus2.jpg"
+    },
+    {
+        "id": 2,
+        "nome": "God of War Ragnarok",
+        "descricao": "Kratos e Atreus enfrentam deuses nórdicos em batalhas épicas.",
+        "preco": 29.99,
+        "anoLancamento": 2022,
+        "categoria": "Ação/Aventura",
+        "imagem": "/img/gowragnarok.jpg"
+    }
+]
