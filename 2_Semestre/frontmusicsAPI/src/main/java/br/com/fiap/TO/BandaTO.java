@@ -62,7 +62,5 @@ public class BandaTO {
 	public int getExibir() {
 		return exibir;
 	}
-	public void setExibir(int exibir) {
-		this.exibir = exibir;
-	}
+	public void setExibir(int exibir) { this.exibir = exibir; }
 }
